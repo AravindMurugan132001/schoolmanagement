@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #004292;
+    background-image: url(./images/schoolimg.png);
+    background-size: cover; 
+}
+
+.row {
+    height: 60%;
+    position: relative;
+    top: 15vh;
+}
+
+.login-container {
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.input-section{
+    margin: 0.5em auto;
+    width: 65%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+}
+#inputs{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+.signin-btn{
+    padding: 5px 0px;
+    border-radius: 20px;
+    background-color: #01A7E1;
+    border: none;
+    color:#fff;
+    font-size:16px;
+    margin: 0 auto;
+    width: 40%;
+}
+.page-title{
+    color: #01A7E1;
+}
+
+.signin-btn:hover{
+    background-color: #004292;
+}
+
+.frgt-password a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #01A7E1;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .login-container {
+        width: 70%;
+    }
+} 
+
+@media only screen and (max-width: 426px) {
+    .login-container {
+        width: 90%;
+    }
+    .input-section {
+        width: 80%;
+    }
+} 

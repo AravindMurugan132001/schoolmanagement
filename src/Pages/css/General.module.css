@@ -1,0 +1,123 @@
+.body-section {
+    margin-top: 12vh;
+}
+
+.navigation-bar{
+    width: 100vw;
+    height:12vh;
+    background-color: #004292;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+}
+
+.user-info{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.user-name{
+    padding: 15px 10px 0 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.dashboard{
+    text-transform: uppercase;
+    font-size:16px;
+    color: #fff;
+}
+
+.sitelogo-menu{
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color:rgb(0,0,0);
+    background-color:rgb(0,0,0,0.8);
+    z-index:1;
+    overflow-x:hidden;
+    transition: 0.5s;
+}
+
+.overlay-content{
+    position:relative;
+    top:10%;
+    width: 50%;
+    margin: 30px auto;
+}
+
+.overlay a{
+    padding: 8px;
+    text-decoration:none;
+    font-size:16px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus{
+    color: #004292;
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 25px;
+}
+
+.dropdown img {
+    border-radius: 100%;
+}
+.logo{
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.site {
+    border-radius: 60%;
+    margin-top: 8px;
+}
+
+.siteinfo{
+    display: flex;
+}
+
+.nav-menus{
+    display: flex;
+    flex-direction: column;
+    line-height: 4.5em;
+    padding-left: 0.5em;
+}
+
+.nav-menus a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.side-nav {
+    background-color: #004292;
+    height: 88vh;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+.sidenavdetails {
+    margin-top: 3.5em;
+}

@@ -1,0 +1,287 @@
+.AdminProfile{
+    margin-top: 0.8rem;
+    padding: 0.5rem 1rem;
+    background-color: #f2f5fc;
+    border-radius: 15px;
+    margin-left: 0.8em;
+}
+.profile-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.admin-details{
+    width: 75%;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.detaildesign{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.detaillogo{
+    margin-right: 1rem;
+    padding-top: 0.6rem;
+}
+
+.detail h5{
+    font-size: 14px;
+}
+
+.detail h6{
+    font-size: 14px;
+}
+
+.AdminProfile h3{
+    font-size: 16px;
+}
+.profile-picture img{
+    border-radius: 50%;
+}
+
+.noticeboard{
+    padding: 1em;
+    margin-left: 0.8em;
+    margin-top: 0.7em;
+    height:45px ;
+    background-color: #004292;
+    border-radius: 15px;
+    text-align: center;
+}
+.noticeboardtxt{
+    color: #f2f5fc;
+    margin-top: -8px;
+}
+.noticeboardbody{
+    
+    padding: 2rem;
+    margin-left: 0.7rem;
+    width: 745px;
+    height:15rem ;
+    margin-top:0.7em ;
+    background-color: #f2f5fc;
+    justify-content: space-between;
+    border-radius:15px;
+}
+.notice-btn{
+    padding: 5px 0px;
+    border-radius: 20px;
+    background-color: #004292;
+    border: none;
+    font-size:16px;
+    margin-left: 280px;
+    width: 25%;
+    height: 30px;
+}
+.noticetxt-btn{
+    color: #f2f5fc;
+}
+#admNoticeInputs{
+    padding: 2rem;
+    margin-left: -1.2rem;
+    width: 720px;
+    height:14rem ;
+    margin-top:-1.8em ;
+    background-color: #fdfdfd;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+/* .Teacherbox{
+    padding: 1em;
+    margin-left: 0.8em;
+    margin-top: 0.7em;
+    height:45px ;
+    background-color: #004292;
+    border-radius: 15px;
+    text-align: center;
+} */
+.Teacherbox{
+    padding: 1em;
+    margin-right: 100%;
+    margin-left: 102%;
+    margin-top: 12.5rem;
+    height:45px ;
+    width: 370px;
+    background-color: #ef832b;
+    border-radius: 15px;
+    text-align: center;
+}
+.Teacherboxtxt{
+    color: #f2f5fc;
+    text-align: center;
+    margin-top: -0.6rem;
+}
+.Tnoticeboardbody{
+    
+    padding: 2rem;
+    margin-left: -4%;
+    width: 370px;
+    height:11rem ;
+    margin-top:0.8em ;
+    background-color: #eef5c6;
+    justify-content: space-between;
+    border-radius:15px;
+}
+.Register-btn{
+    padding:space-between;
+    border-radius: 10px;
+    background-color: #004292;
+    border:15px;
+    font-size:16px;
+    margin-left: -1.5rem;
+    margin-right:50%;
+    margin-top: 3px;
+    width: 350px;
+    height: 35px;
+}
+.Show-btn{
+    padding:space-between;
+    border-radius: 10px;
+    background-color: #004292;
+    border:20px;
+    font-size:16px;
+    margin-right:98%;
+    margin-left: -1.5rem;
+    margin-top: 3px;
+    width: 350px;
+    height: 35px;
+}
+.Edit-btn{
+    padding:space-between;
+    border-radius: 10px;
+    background-color: #004292;
+    border:10px;
+    font-size:16px;
+    margin-right:-9rem;
+    margin-left: -9rem;
+    margin-top: 3px;
+    width: 350px;
+    height: 35px;
+    font-size:10px ;
+}
+.Delete-btn{
+    padding:space-between;
+    border-radius: 10px;
+    background-color: #004292;
+    border:20px;
+    font-size:16px;
+    margin-right:98%;
+    margin-left: -1.5rem;
+    margin-top: 3px;
+    width: 350px;
+    height: 35px;
+}
+
+.Studentbox{
+    padding: 1rem;
+    margin-left: 102%;
+    margin-top: -32rem;
+    margin-block-start:-31.6rem;
+    height:45px;
+    width:370px;
+    background-color: #009236;
+    border-radius: 15px;
+    text-align: center;
+}
+.Studentboxtxt{
+    color: #f2f5fc;
+    text-align: center;
+    margin-top: -0.6rem;
+}
+.Snoticeboardbody{
+    
+    padding: 2rem;
+    margin-left: -4%;
+    width: 370px;
+    height:11rem ;
+    margin-top:0.8em ;
+    background-color: #eef5c6;
+    justify-content: space-between;
+    border-radius:15px;
+}
+.SRegister-btn{
+    padding:space-between;
+    border-radius: 10px;
+    background-color: #004292;
+    border:15px;
+    font-size:16px;
+    margin-left: -1.5rem;
+    margin-right:50%;
+    margin-top: 3px;
+    width: 350px;
+    height: 35px;
+}
+.SShow-btn{
+    padding:space-between;
+    border-radius: 10px;
+    background-color: #004292;
+    border:20px;
+    font-size:16px;
+    margin-right:98%;
+    margin-left: -1.5rem;
+    margin-top: 3px;
+    width: 350px;
+    height: 35px;
+}
+.SEdit-btn{
+    padding:space-between;
+    border-radius: 10px;
+    background-color: #004292;
+    border:10px;
+    font-size:16px;
+    margin-right:-9rem;
+    margin-left: -9rem;
+    margin-top: 3px;
+    width: 350px;
+    height: 35px;
+    font-size:10px ;
+}
+.SDelete-btn{
+    padding:space-between;
+    border-radius: 10px;
+    background-color: #004292;
+    border:20px;
+    font-size:16px;
+    margin-right:98%;
+    margin-left: -1.5rem;
+    margin-top: 3px;
+    width: 350px;
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navigation-bar{
+    width: 100vw;
+    height:12vh;
+    background-color: #004292;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+} */

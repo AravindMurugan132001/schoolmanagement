@@ -1,0 +1,180 @@
+.TeacherProfile{
+    margin-top: 0.8rem;
+    padding: 0.5rem 1rem;
+    background-color: #f2f5fc;
+    border-radius: 15px;
+    margin-left: 0.8em;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.teacher-details{
+    width: 75%;
+}
+
+.profile-picture img{
+    border-radius: 50%;
+}
+
+.detail1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.detail2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+}
+.detaildesign{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.detaillogo{
+    margin-right: 1rem;
+    padding-top: 0.6rem;
+}
+
+.detail h5{
+    font-size: 14px;
+}
+
+.detail h6{
+    font-size: 14px;
+}
+
+.TeacherProfile{
+    font-size: 16px;
+}
+
+.TeacherTimeTable{
+    padding: 0.5em;
+    margin-top: 0.8em;
+    background-color: #f2f5fc;
+    border-radius: 15px;
+}
+
+.timetable {
+    padding: 0.5em;
+    margin-top: 0.8em;
+    background-color: #f2f5fc;
+    border-radius: 15px;
+}
+
+.period1{
+    padding: 1em;
+    margin-left: 0.8em;
+    margin-top: 0.7em;
+    height:75px ;
+    background-color: #004292;
+    border-radius: 15px;
+}
+
+.period2{
+    padding: 1em;
+    margin-left: 0.8em;
+    margin-top: 0.7em;
+    height:75px ;
+    background-color: #004292;
+    border-radius: 15px;
+}
+.period3{
+    padding: 1em;
+    margin-left: 0.8em;
+    margin-top: 0.7em;
+    height:75px ;
+    background-color: #004292;
+    border-radius: 15px;
+}
+.period4{
+    padding: 1em;
+    margin-left: 0.8em;
+    margin-top: 0.7em;
+    height:75px ;
+    background-color: #004292;
+    border-radius: 15px;
+}
+.period5{
+    padding: 1em;
+    margin-left: 0.8em;
+    margin-top: 0.7em;
+    height:75px ;
+    background-color: #004292;
+    border-radius: 15px;
+}
+.icons{
+    height: 50px;
+    border-radius: 5rem;
+    margin-bottom: 20px;
+    margin-top: -7px;
+    height: 60px;
+}
+
+.standardname{
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin-bottom: 50px;
+    margin-top: -70px;
+}
+
+.noticeboardbody{
+    
+    padding: 2rem;
+    margin-left: 0.7rem;
+    width: 745px;
+    height:6rem ;
+    margin-top:0.7em ;
+    background-color: #f2f5fc;
+    justify-content: space-between;
+    border-radius:15px;
+}
+
+.noticeboard{
+    padding: 1em;
+    margin-left: 0.8em;
+    margin-top: 0.7em;
+    height:45px ;
+    background-color: #004292;
+    border-radius: 15px;
+    text-align: center;
+}
+.noticeboardtxt{
+    color: #f2f5fc;
+    margin-top: -8px;
+}
+
+.assignmentbody{
+    padding: 2rem;
+    margin-left: 0.7rem;
+    width: 745px;
+    height:6rem ;
+    margin-top:0.7em ;
+    background-color: #f2f5fc;
+    justify-content: space-between;
+    border-radius:15px;
+}
+
+.assignment{
+    padding: 1em;
+    margin-left: 0.8em;
+    margin-top: 0.7em;
+    height:45px ;
+    background-color: #004292;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.assignmenttxt{
+    color: #f2f5fc;
+    margin-top: -8px;
+}
